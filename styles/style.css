@@ -1,0 +1,41 @@
+header, .contactDetails {
+  background: red;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header button, .contactDetails button {
+  background: #117a5b;
+}
+
+header button:hover, .contactDetails button:hover {
+  background: yellowgreen;
+}
+
+header p, .contactDetails p {
+  color: yellow;
+}
+
+.contact {
+  background: #117a5b;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@import "./variables";
+@import "./header";
+
+.contact {
+  background: $primaryButton;
+  @include flexCenter(90vh);
+  width: 100%-20%; //MATH operations
+}
+
+.contactDetails {
+  @extend header;
+}

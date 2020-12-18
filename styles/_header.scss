@@ -1,0 +1,23 @@
+@mixin flexCenter($heighVal) {
+  height: $heighVal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background: red;
+  //   height: 20vh;
+
+  //Caliing mixin
+  @include flexCenter(90vh);
+  button {
+    background: $primaryButton;
+    &:hover {
+      background: $hoverButtonColor;
+    }
+  }
+  p {
+    color: yellow;
+  }
+}
